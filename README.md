@@ -1,6 +1,6 @@
 This repository is for CMPT732 project: Super-Resolution Diffusion Models for Faces (SRDM4Faces), which belongs to Siyu An, Sidharth Singh and Hyeon Lee. 
 
-Here we regularly update related papers with a short summary and implementations (w/ modifications).
+Here we regularly update related papers with a short summary and their implementations (w/ modifications).
 
 #1 Saharia, Chitwan, et al. "Image super-resolution via iterative refinement." TPAMI (2022). (https://arxiv.org/abs/2104.07636)
 - Adopts the standard DDPM with slight modifications of the U-Net.
