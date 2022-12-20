@@ -12,4 +12,4 @@ Here we regularly update related papers with a short summary and implementations
 
 #3 Chung, Hyungjin, et al. "Diffusion posterior sampling for general noisy inverse problems." ICML 2023 under review. (https://arxiv.org/abs/2209.14687)
 - Adopts the standard DDPM, but the key difference is re-modeling the reverse process.
-- Circumvents the intractable likelihood term by approximating the posterior distribution with Laplace approximation.
+- Circumvents the intractable likelihood term by approximating with Tweedie's formula or Laplace approximation.
