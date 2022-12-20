@@ -1,9 +1,10 @@
-# CMPT732 - Super-Resolution Diffusion Models for Faces
 ## Intro
 This repository is for CMPT732 project, which is created with reference to [Image-Super-Resolution-via-Iterative-Refinement](https://github.com/Janspiry/Image-Super-Resolution-via-Iterative-Refinement).
+
 ## Dataset
-[FFHQ](https://github.com/NVlabs/ffhq-dataset) is used for training and [ CelebA-HQ](https://www.kaggle.com/datasets/badasstechie/celebahq-resized-256x256) is used for validation.
-Download the dataset and prepare it in **LMDB** or **PNG** format using script. (LMDB is default.)
+[FFHQ](https://github.com/NVlabs/ffhq-dataset) is used for training and [CelebA-HQ](https://www.kaggle.com/datasets/badasstechie/celebahq-resized-256x256) is used for validation.
+
+Download the dataset and prepare it in **LMDB** or **PNG** format using script. (LMDB is the default)
 ```
 python data/prepare_data.py  --path [dataset root]  --out [output root] --size 16,128 -l
 ```
@@ -14,8 +15,6 @@ Create a folder `dataset` to the root directory and put your own images inside, 
 ```
 pip install -r requirement.txt
 ```
-
-
 
 ## Training
 16--->128
